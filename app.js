@@ -1,7 +1,11 @@
 import express from 'express';
 import routes from './api/routes.js';
 import cors from 'cors';
-// import sequelize from './sequelize.mjs';
+import dotenv from 'dotenv';
+// import sequelize from './sequelize.js';
+
+
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;

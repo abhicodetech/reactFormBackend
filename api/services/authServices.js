@@ -1,4 +1,4 @@
-import User from "../../models/user.js";
+// import User from "../../user.js";
 import argon2 from 'argon2';
 
 export const signup = async (req,res) => {
