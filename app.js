@@ -1,5 +1,5 @@
 import express from 'express';
-import routes from './api/routes.mjs';
+import routes from './api/routes.js';
 import cors from 'cors';
 // import sequelize from './sequelize.mjs';
 
